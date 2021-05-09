@@ -4,11 +4,11 @@ and  returns tagged anomalies.
 The repo includes a Python Flask server for the micro-service as well as
 Python model code that is executed on-demand.
 
-## *********************************************************************************************************
+### *********************************************************************************************************
 
-# NOTE: The flaskdata_api was developed in PyCharm development environment and tested on localhost
+### NOTE: The flaskdata_api was developed in PyCharm development environment and tested on localhost
 
-# Task: Steps to take to get the flaskdata_api_v1.0 up and running
+### Task: Steps to take to get the flaskdata_api_v1.0 up and running
 The following steps need to be taken after doing a git clone
 
 ## Step 1: change directory

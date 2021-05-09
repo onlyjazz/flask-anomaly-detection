@@ -2,11 +2,11 @@
 import sys
 import pandas as pd
 import numpy as np
-from api.service_scripts import common
-from api.service_scripts import train_isotree_model
+from api.models import common
+from api.models import train_isotree_model
 
 # add paths to sys
-sys.path.insert(0, 'service_scripts')
+sys.path.insert(0, 'models')
 sys.path.insert(1, 'assets/models')
 
 

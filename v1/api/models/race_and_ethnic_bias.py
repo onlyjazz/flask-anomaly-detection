@@ -9,11 +9,11 @@ warnings.filterwarnings('ignore')
 
 from smclarify.bias.report import *
 from matplotlib.backends.backend_pdf import PdfPages
-from api.service_scripts import flaskdata_superset
-from api.service_scripts import common
+from api.services import flaskdata_superset
+from api.models import common
 
 # add paths to sys
-sys.path.insert(0, 'service_scripts')
+sys.path.insert(0, 'models')
 sys.path.insert(1, 'assets/reports')
 
 
@@ -267,5 +267,3 @@ def find_bias_score(ds_name, pair_data, target_group, save_folder,
 
     # Returning bias scores as a pandas dataframe
     return df
-
-

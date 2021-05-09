@@ -13,3 +13,4 @@ scipy
 isotree
 pickle-mixin
 category_encoders
+smclarify

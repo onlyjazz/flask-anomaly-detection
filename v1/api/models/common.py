@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import category_encoders as ce
 import pickle
-from api.service_scripts import flaskdata_superset
+from api.services import flaskdata_superset
 
 
 def format_results(results):

@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 
 import seaborn as sns
 import logging
-from api.service_scripts import flaskdata_superset
+from api.services import flaskdata_superset
 
 # add paths to sys
-sys.path.insert(0, 'service_scripts')
+sys.path.insert(0, 'models')
 sys.path.insert(1, 'assets/reports')
 
 # ************************************************************************************

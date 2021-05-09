@@ -10,12 +10,12 @@ app = Flask(__name__)  # Create a Flask WSGI application
 # For PRODUCTION build
 app.config["DEBUG"] = False  # set DEBUG = False for PROD build
 
-sys.path.insert(0, 'service_scripts')
+sys.path.insert(0, 'models')
 
-from api.service_scripts import get_missing_value_reports as gmr
-from api.service_scripts import race_and_ethnic_bias as reb
-from api.service_scripts import anomaly_detection as ad
-from api.service_scripts import common
+from api.models import get_missing_value_reports as gmr
+from api.models import race_and_ethnic_bias as reb
+from api.models import anomaly_detection as ad
+from api.models import common
 
 
 log = logging.getLogger(__name__)

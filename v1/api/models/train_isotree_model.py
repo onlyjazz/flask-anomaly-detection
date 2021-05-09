@@ -1,7 +1,7 @@
 # Import libraries
 import os
 from isotree import IsolationForest as IsolationForestIsoTree
-from api.service_scripts import common
+from api.models import common
 
 
 def load_save_isotree_if_model(df_data, ds_name, i_dim, is_imputer, cols, n_components,
@@ -72,4 +72,3 @@ def load_save_isotree_if_model(df_data, ds_name, i_dim, is_imputer, cols, n_comp
             print(f"{model_for} isotree model saved as '{model_filename}'")
 
     return model
-

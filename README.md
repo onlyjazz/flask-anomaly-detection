@@ -16,9 +16,9 @@ NOTE: The flaskdata_api was developed in PyCharm development environment and tes
 - pip install -r requirements.txt
 
 ## HOW-TO run
-cd v1
-export FLASK_APP=server.py
-flask run
+- cd v1
+- export FLASK_APP=server.py
+- flask run
 
 You should get this:
  * Serving Flask app "server.py"

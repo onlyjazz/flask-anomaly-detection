@@ -11,6 +11,10 @@ NOTE: The flaskdata_api was developed in PyCharm development environment and tes
 - git clone
 - cd v1
 - python -m venv flask_venv
-- flask_venv\Scripts\activate.bat  # Activate the virtual environment
+- ./flask_venv/activate  # Activate the virtual environment
 - python -m pip install --upgrade pip
 - pip install -r requirements.txt
+
+
+9/5/2021
+Update requirements with missing module smclarify, move  flaskdata_superset.py to services, main Flask server to server.py in the same directory as settings.

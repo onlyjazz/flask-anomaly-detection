@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+requests
+flask
+statsmodels
+pyreadr
+smclarify
+tabulate
+scipy
+isotree
+pickle-mixin
+category_encoders

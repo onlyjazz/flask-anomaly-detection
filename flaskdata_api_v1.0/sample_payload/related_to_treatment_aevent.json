@@ -1,0 +1,29 @@
+{
+    "dataset_name": "adverse_events_subset",
+    "pair_data": [
+        {"aevent": "SINUS BRADYCARDIA", "related_to_treatment": ""},
+        {"aevent": "CONSTIPATION", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "DIARRHEA", "related_to_treatment": "POSSIBLE"},
+        {"aevent": "NAUSEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "NAUSEA", "related_to_treatment": "POSSIBLE"},
+        {"aevent": "ASTHENIA", "related_to_treatment": ""},
+        {"aevent": "NAUSEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "NAUSEA", "related_to_treatment": "UNRELATED"},
+        {"aevent": "VOMITING", "related_to_treatment": "POSSIBLE"},
+        {"aevent": "FATIGUE", "related_to_treatment": "POSSIBLE"},
+        {"aevent": "FATIGUE", "related_to_treatment": "POSSIBLE"},
+        {"aevent": "FLU LIKE SYMPTOMS", "related_to_treatment": "UNRELATED"},
+        {"aevent": "FLU LIKE SYMPTOMS", "related_to_treatment": "UNRELATED"},
+        {"aevent": "FLU LIKE SYMPTOMS", "related_to_treatment": "UNRELATED"}
+    ],
+    "threshold": 0.4,
+    "use_existing_model": "N",
+    "use_full_data": "N",
+    "model_name": "AE"
+}

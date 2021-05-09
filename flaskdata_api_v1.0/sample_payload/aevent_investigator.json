@@ -1,0 +1,32 @@
+# if you want all the rows to be considered then just give
+pair_data = ["investigator", "aevent"]
+
+{
+    "dataset_name": "adverse_events_subset",
+    "pair_data": [
+    {"investigator": "INQ6663", "aevent": "SINUS BRADYCARDIA"},
+    {"investigator": "INQ6663", "aevent": "CONSTIPATION"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "DIARRHEA"},
+    {"investigator": "INQ6663", "aevent": "NAUSEA"},
+    {"investigator": "INQ6663", "aevent": "NAUSEA"},
+    {"investigator": "IFW6696", "aevent": "ASTHENIA"},
+    {"investigator": "INQ6663", "aevent": "NAUSEA"},
+    {"investigator": "INQ6663", "aevent": "NAUSEA"},
+    {"investigator": "INQ6663", "aevent": "VOMITING"},
+    {"investigator": "INQ6663", "aevent": "FATIGUE"},
+    {"investigator": "INQ6663", "aevent": "FATIGUE"},
+    {"investigator": "INQ6663", "aevent": "FLU LIKE SYMPTOMS"},
+    {"investigator": "INQ6663", "aevent": "FLU LIKE SYMPTOMS"},
+    {"investigator": "INQ6663", "aevent": "FLU LIKE SYMPTOMS"}
+    ],
+    "threshold": 0.4,
+    "use_existing_model": "N",    
+    "use_full_data": "N",
+    "model_name": "AE"
+}

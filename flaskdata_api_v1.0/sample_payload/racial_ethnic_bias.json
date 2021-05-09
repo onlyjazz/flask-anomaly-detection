@@ -1,0 +1,7 @@
+{
+    "dataset_name": "adsl_subjects_subset",
+    "pair_data": {"DEATHFL": ["Y", "N"], "AGEGR1": ["<65", ">=65"]},
+    "show_columns": "",
+    "target_group": "COUNTRY",
+    "save_plot": "Y"
+}

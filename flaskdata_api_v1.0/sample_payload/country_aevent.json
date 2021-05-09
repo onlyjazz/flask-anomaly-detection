@@ -1,0 +1,29 @@
+{
+    "dataset_name": "adverse_events_subset",
+    "pair_data": [
+        {"country": "IRL", "aevent": "SINUS BRADYCARDIA"},
+        {"country": "IRL", "aevent": "CONSTIPATION"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "DIARRHEA"},
+        {"country": "IRL", "aevent": "NAUSEA"},
+        {"country": "IRL", "aevent": "NAUSEA"},
+        {"country": "IRL", "aevent": "ASTHENIA"},
+        {"country": "RUS", "aevent": "NAUSEA"},
+        {"country": "IRL", "aevent": "NAUSEA"},
+        {"country": "IRL", "aevent": "VOMITING"},
+        {"country": "IRL", "aevent": "FATIGUE"},
+        {"country": "IRL", "aevent": "FATIGUE"},
+        {"country": "IRL", "aevent": "FLU LIKE SYMPTOMS"},
+        {"country": "IRL", "aevent": "FLU LIKE SYMPTOMS"},
+        {"country": "IRL", "aevent": "FLU LIKE SYMPTOMS"}
+    ],
+    "threshold": 0.4,
+    "use_existing_model": "N",
+    "use_full_data": "N",
+    "model_name": "AE"
+}

@@ -1,0 +1,29 @@
+{
+    "dataset_name": "adverse_events_subset",
+    "pair_data": [
+        {"aevent": "SINUS BRADYCARDIA", "age_group": " < 65"},
+        {"aevent": "CONSTIPATION", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "DIARRHEA", "age_group": "< 65"},
+        {"aevent": "NAUSEA", "age_group": "< 65"},
+        {"aevent": "NAUSEA", "age_group": "< 65"},
+        {"aevent": "ASTHENIA", "age_group": "< 65"},
+        {"aevent": "NAUSEA", "age_group": "< 65"},
+        {"aevent": "NAUSEA", "age_group": "< 65"},
+        {"aevent": "VOMITING", "age_group": "< 65"},
+        {"aevent": "FATIGUE", "age_group": "< 65"},
+        {"aevent": "FATIGUE", "age_group": "< 65"},
+        {"aevent": "FLU LIKE SYMPTOMS", "age_group": "< 65"},
+        {"aevent": "FLU LIKE SYMPTOMS", "age_group": "< 65"},
+        {"aevent": "FLU LIKE SYMPTOMS", "age_group": "< 65"}
+    ],
+    "threshold": 0.4,
+    "use_existing_model": "N",
+    "use_full_data": "N",
+    "model_name": "AE"
+}

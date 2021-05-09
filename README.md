@@ -19,7 +19,8 @@ NOTE: The flaskdata_api was developed in PyCharm development environment and tes
 cd v1
 export FLASK_APP=server.py
 flask run
-You should get this: 
+
+You should get this:
  * Serving Flask app "server.py"
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.

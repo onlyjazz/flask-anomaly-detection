@@ -112,6 +112,7 @@ def get_anomaly_detection_isotree_if_report():
         # fetch inputs
         in_data = request.get_json()
         ds_name = in_data["dataset_name"]
+        print (ds_name)
         pair_data = in_data["pair_data"]
 
         use_full_data = in_data["use_full_data"]
@@ -127,12 +128,15 @@ def get_anomaly_detection_isotree_if_report():
         # Categorical data can pose a serious problem when there are too many
         # unique values in the data set. So then, use high cardinality
         # of 32 bits per feature...
+        
         if "n_components" not in in_data:
             n_components = 32
         else:
             n_components = in_data["n_components"]
 
         model_path = model_base_path.replace("$", "isotree")
+        print(model_path)
+
         app.config['model_path'] = model_path
         app.logger.info(app.config['model_path'])
         # call to fetch data anomalies for the passed data points

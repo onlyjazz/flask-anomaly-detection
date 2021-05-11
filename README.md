@@ -14,11 +14,11 @@ NOTE: The flaskdata_api was developed in PyCharm development environment and tes
 - python -m pip install --upgrade pip
 - pip install -r requirements.txt
 
-## Sample input payload for running the endpoints 
+## Sample input payload for running the endpoints
 Sample input payload can be found in the **sample_payload** folder
 
    Sample payload for e.g.
-   Case 1: With a subset of datapoints for the column pair say aevent, age_group 
+   Case 1: With a subset of datapoints for the column pair say aevent, age_group
     {
     "dataset_name": "adverse_events_subset",
     "pair_data": [
@@ -48,7 +48,7 @@ Sample input payload can be found in the **sample_payload** folder
     "use_full_data": "N",
     "model_name": "AE"
 }
-  
+
 Case 2: With all the data in the column pair say investigator, aevent
      {
     "dataset_name": "adverse_events_subset",
@@ -74,3 +74,10 @@ You should get this:
 
 9/5/2021
 Update requirements with missing module smclarify, move  flaskdata_superset.py to services, main Flask server to server.py in the same directory as settings.
+
+
+11/5/2021
+Created assets and models folders.
+v1/api/models contains python service code to run models
+
+TODO - rename v1/api/models to v1/api/code and retest

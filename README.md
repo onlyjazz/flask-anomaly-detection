@@ -62,7 +62,7 @@ Case 2: With all the data in the column pair say investigator, aevent
 ## HOW-TO run
 - cd v1
 - export FLASK_APP=server.py
-- flask run
+- flask run -h localhost -p 5101
 
 You should get this:
  * Serving Flask app "server.py"
@@ -70,7 +70,7 @@ You should get this:
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5101/ (Press CTRL+C to quit)
 
 9/5/2021
 Update requirements with missing module smclarify, move  flaskdata_superset.py to services, main Flask server to server.py in the same directory as settings.
@@ -86,3 +86,6 @@ TODO - rename v1/api/models to v1/api/code and retest
 Fix RequestsDependencyWarning: urllib3 (1.25.2) or chardet (3.0.4) doesn't match a supported version warning
  pip install --upgrade requests
  Successfully installed requests-2.25.1
+
+Moved the port to 5101 since 5000 conflicts with Superset
+  flask run -h localhost -p 5101

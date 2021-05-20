@@ -10,7 +10,7 @@ NOTE: The flaskdata_api was developed in PyCharm development environment and tes
 - git clone
 - cd v1
 - python -m venv flask_venv
-- ./flask_venv/activate  # Activate the virtual environment
+- ./flask_venv/bin/activate  # Activate the virtual environment
 - python -m pip install --upgrade pip
 - pip install -r requirements.txt
 

@@ -61,11 +61,10 @@ Case 2: With all the data in the column pair say investigator, aevent
 
 ## HOW-TO run
 - cd v1
-- export FLASK_APP=server.py
 - flask run -h localhost -p 5101
 
 You should get this:
- * Serving Flask app "server.py"
+ * Serving Flask app "app.py"
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
@@ -89,3 +88,5 @@ Fix RequestsDependencyWarning: urllib3 (1.25.2) or chardet (3.0.4) doesn't match
 
 Moved the port to 5101 since 5000 conflicts with Superset
   flask run -h localhost -p 5101
+
+Renamed server.py to app.py to be compatible with Flask default server naming

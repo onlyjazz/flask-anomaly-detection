@@ -81,3 +81,8 @@ Created assets and models folders.
 v1/api/models contains python service code to run models
 
 TODO - rename v1/api/models to v1/api/code and retest
+
+20/5/2021
+Fix RequestsDependencyWarning: urllib3 (1.25.2) or chardet (3.0.4) doesn't match a supported version warning
+ pip install --upgrade requests
+ Successfully installed requests-2.25.1

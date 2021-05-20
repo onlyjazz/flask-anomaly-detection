@@ -61,6 +61,7 @@ Case 2: With all the data in the column pair say investigator, aevent
 
 ## HOW-TO run
 - cd v1
+- export FLASK_APP=app.py
 - flask run -h localhost -p 5101
 
 You should get this:
